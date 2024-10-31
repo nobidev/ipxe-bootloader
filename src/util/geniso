@@ -53,9 +53,9 @@ fi
 dir=$(mktemp -d bin/iso.dir.XXXXXX)
 cfg=${dir}/isolinux.cfg
 
-mkisofs+=(-quiet -l -volid "iPXE" -preparer "iPXE build system"
-	-appid "iPXE ${VERSION} - Open Source Network Boot Firmware"
-	-publisher "http://ipxe.org/" -c boot.cat)
+mkisofs+=(-quiet -l -volid "iPXE" -preparer "NobiDev"
+	-appid "iPXE ${VERSION} - NobiDev Netboot System Firmware"
+	-publisher "http://ipxe.nobidev.com/" -c boot.cat)
 
 # generate the config
 cat > ${cfg} <<EOF
