@@ -315,9 +315,9 @@ if [ -n "${ISOIMG}" ] ; then
 	echo "${0}: cannot find a suitable mkisofs or equivalent" >&2
 	exit 1
     fi
-    "${MKISOFS}" -quiet -volid "iPXE" -preparer "iPXE build system" \
-	    -appid "iPXE - Open Source Network Boot Firmware" \
-	    -publisher "ipxe.org" -sysid "iPXE" -o "${ISOIMG}" \
+    "${MKISOFS}" -quiet -volid "iPXE" -preparer "NobiDev" \
+	    -appid "iPXE - NobiDev Netboot System Firmware" \
+	    -publisher "ipxe.nobidev.com" -sysid "iPXE" -o "${ISOIMG}" \
 	    ${ISOARGS} "${ISODIR}"
     if isohybrid --version >/dev/null 2>&1 ; then
 	ISOHYBRIDARGS=
