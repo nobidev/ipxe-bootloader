@@ -24,9 +24,9 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  * "iPXE".
  *
  */
-#define PRODUCT_NAME ""
+#define PRODUCT_NAME "NobiDev iPXE"
 #define PRODUCT_SHORT_NAME "iPXE"
-#define PRODUCT_URI "https://ipxe.org"
+#define PRODUCT_URI "https://ipxe.nobidev.com"
 
 /*
  * Tag line
@@ -35,7 +35,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  * by "iPXE", then the standard tag line "Open Source Network Boot
  * Firmware" is unlikely to fit neatly onto the screen.
  */
-#define PRODUCT_TAG_LINE "Open Source Network Boot Firmware"
+#define PRODUCT_TAG_LINE "[NobiDev] Netboot System Firmware"
 
 /*
  * Error messages
@@ -80,7 +80,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  * Note that the custom URI is a printf() format string which must
  * include a format specifier for the 32-bit error number.
  */
-#define PRODUCT_ERROR_URI "https://ipxe.org/%08x"
+#define PRODUCT_ERROR_URI "https://ipxe.nobidev.com/%08x"
 
 /*
  * Command help messages
@@ -124,7 +124,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  *   iPXE project and prohibit the alteration or removal of any
  *   references to "iPXE". ]
  */
-#define PRODUCT_COMMAND_URI "https://ipxe.org/cmd/%s"
+#define PRODUCT_COMMAND_URI "https://ipxe.nobidev.com/cmd/%s"
 
 /*
  * Setting help messages
@@ -167,7 +167,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
  *   iPXE project and prohibit the alteration or removal of any
  *   references to "iPXE". ]
  */
-#define PRODUCT_SETTING_URI "https://ipxe.org/cfg/%s"
+#define PRODUCT_SETTING_URI "https://ipxe.nobidev.com/cfg/%s"
 
 /*
  * Product security name suffix
