@@ -222,7 +222,7 @@ VERSION_PATCH	:= $(word 3,$(VERSION_TUPLE))
 ifeq ($(word 4,$(VERSION_TUPLE)),0)
 EXTRAVERSION	:=
 else
-EXTRAVERSION	:= +
+EXTRAVERSION	:= +$(word 4,$(VERSION_TUPLE))
 endif
 GITVERSION	= $(word 5,$(VERSION_TUPLE))
 else
